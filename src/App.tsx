@@ -1,5 +1,6 @@
 import './App.scss'
 import { About } from './Sections/About'
+import { Contact } from './Sections/Contact'
 import { Home } from './Sections/Home'
 import { Skills } from './Sections/Skills'
 import { Techs } from './Sections/Techs'
@@ -14,6 +15,7 @@ function App() {
         <About />
         <Techs />
         <Skills />
+        <Contact />
       </div>
     </>
   )

@@ -5,7 +5,7 @@
     .techs {
       width: fit-content;
       margin: 0 auto;
-      @include global.grid-center-last(5);
+      @include global.grid-center-last(5, min-content);
       justify-items: center;
       gap: 4rem;
 

@@ -1,0 +1,29 @@
+@use "src/global.scss";
+
+#Contact {
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    ul {
+      @include global.grid-center-last(3, max-content);
+      list-style-type: none;
+      gap: 6rem;
+      li {
+        > div,
+        a > div {
+          display: flex;
+          align-items: center;
+          margin-bottom: 0.5rem;
+          span {
+            font-weight: 600;
+            margin-left: 1rem;
+          }
+          svg {
+            font-size: 2rem;
+          }
+        }
+      }
+    }
+  }
+}
