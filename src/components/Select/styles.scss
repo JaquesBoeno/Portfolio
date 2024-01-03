@@ -1,0 +1,14 @@
+.selectInput {
+  img {
+    width: 2.5rem;
+  }
+
+  > div {
+    button {
+      display: flex;
+      align-items: center;
+      border: 0;
+      background-color: transparent;
+    }
+  }
+}

@@ -1,8 +1,12 @@
 import React from 'react'
 import { FaGithub, FaLinkedin, FaWhatsapp } from 'react-icons/fa'
 import './styles.scss'
+import { Select } from '../Select'
+import { useTranslation } from 'react-i18next'
 
 const Header: React.FC = () => {
+  const { t } = useTranslation()
+
   return (
     <header>
       <div className="container">
@@ -10,22 +14,25 @@ const Header: React.FC = () => {
         <nav>
           <ul>
             <li>
-              <a href="#Home">Inicio</a>
+              <a href="#Home">{t('header.home')}</a>
             </li>
             <li>
-              <a href="#About">Sobre</a>
+              <a href="#About">{t('header.about')}</a>
             </li>
             <li>
-              <a href="#Projects">Projetos</a>
+              <a href="#Projects">{t('header.projects')}</a>
             </li>
             <li>
-              <a href="#techs">Tecnologias</a>
+              <a href="#Techs">{t('header.techs')}</a>
             </li>
             <li>
-              <a href="#skills">Habilidades</a>
+              <a href="#Skills">{t('header.skills')}</a>
             </li>
             <li>
-              <a href="#Contact">Contato</a>
+              <a href="#Contact">{t('header.contact')}</a>
+            </li>
+            <li>
+              <Select />
             </li>
             <li>
               <a href="" target="_blank">

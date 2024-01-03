@@ -1,0 +1,10 @@
+{
+  "header": {
+    "home": "Home",
+    "about": "About",
+    "projects": "Projects",
+    "techs": "Techs",
+    "skills": "Skills",
+    "contact": "Contact"
+  }
+}
