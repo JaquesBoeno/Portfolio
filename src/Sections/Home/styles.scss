@@ -1,0 +1,23 @@
+#Home {
+  margin: 2rem 0;
+  .container {
+    display: grid;
+    grid-template-columns: auto 3fr;
+    gap: 4rem;
+    .leftBox {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-evenly;
+      .social {
+        margin: 0 auto;
+        font-size: 2rem;
+        display: grid;
+        gap: 1rem;
+        grid-auto-flow: column;
+      }
+    }
+    img {
+      width: 100%;
+    }
+  }
+}
