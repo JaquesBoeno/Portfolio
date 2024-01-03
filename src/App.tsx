@@ -8,9 +8,11 @@ function App() {
   return (
     <>
       <Header />
-      <Home />
-      <About />
-      <Techs />
+      <div className="PageContent">
+        <Home />
+        <About />
+        <Techs />
+      </div>
     </>
   )
 }
