@@ -1,8 +1,9 @@
 import React from 'react'
-import { FaGithub, FaLinkedin, FaWhatsapp } from 'react-icons/fa'
 import './styles.scss'
 import { Select } from '../Select'
 import { useTranslation } from 'react-i18next'
+
+import { Whatsapp, GitHub, LinkedIn } from '../../iconsController'
 
 const Header: React.FC = () => {
   const { t } = useTranslation()
@@ -36,17 +37,17 @@ const Header: React.FC = () => {
             </li>
             <li>
               <a href="" target="_blank">
-                <FaWhatsapp />
+                <Whatsapp />
               </a>
             </li>
             <li>
               <a href="https://github.com/JaquesBoeno" target="_blank">
-                <FaGithub />
+                <GitHub />
               </a>
             </li>
             <li>
               <a href="https://linkedin.com/in/JaquesBoeno" target="_blank">
-                <FaLinkedin />
+                <LinkedIn />
               </a>
             </li>
           </ul>

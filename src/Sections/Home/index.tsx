@@ -3,7 +3,8 @@ import React from 'react'
 import banner from '../../assets/banner.png'
 
 import './styles.scss'
-import { FaGithub, FaLinkedin, FaWhatsapp } from 'react-icons/fa'
+
+import { GitHub, Whatsapp, LinkedIn } from '../../iconsController'
 
 const Home: React.FC = () => {
   return (
@@ -20,13 +21,13 @@ const Home: React.FC = () => {
           </div>
           <div className="social">
             <a href="" target="_blank">
-              <FaWhatsapp />
+              <Whatsapp />
             </a>
             <a href="https://github.com/JaquesBoeno" target="_blank">
-              <FaGithub />
+              <GitHub />
             </a>
             <a href="https://linkedin.com/in/JaquesBoeno" target="_blank">
-              <FaLinkedin />
+              <LinkedIn />
             </a>
           </div>
         </div>
