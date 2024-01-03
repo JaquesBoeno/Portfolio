@@ -37,7 +37,13 @@ img {
   user-select: none;
 }
 
+:target {
+  scroll-margin-top: 6rem;
+}
+
+html,
 body {
+  scroll-behavior: smooth;
   background: var(--background);
   color: var(--text);
 }
