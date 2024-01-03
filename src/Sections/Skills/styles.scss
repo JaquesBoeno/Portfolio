@@ -17,6 +17,15 @@
           margin-right: 1rem;
           font-size: 1.5rem;
         }
+
+        &:nth-child(even) {
+          display: flex;
+          flex-direction: row-reverse;
+          text-align: right;
+          svg {
+            margin-left: 1rem;
+          }
+        }
       }
     }
   }
