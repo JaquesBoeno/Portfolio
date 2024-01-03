@@ -1,0 +1,26 @@
+@use "src/global.scss";
+
+#Techs {
+  .container {
+    .techs {
+      width: fit-content;
+      margin: 0 auto;
+      @include global.grid-center-last(5);
+      justify-items: center;
+      gap: 4rem;
+
+      .tech {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        img {
+          width: 6rem;
+        }
+        span {
+          margin-top: 1rem;
+          text-align: center;
+        }
+      }
+    }
+  }
+}
