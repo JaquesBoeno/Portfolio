@@ -11,23 +11,30 @@ const Contact: React.FC = () => {
         <h2>Contato</h2>
         <ul>
           <li>
-            <div>
-              <Whatsapp /> <span>Whatsapp</span>
-            </div>
-            <span>+55 (53) 99950-6262</span>
+            <a
+              href="https://wa.me/5553999506262?text=Ol%C3%A1%20Jaques,%20estamos%20impressionados%20com%20suas%20habilidades%20de%20desenvolvimento!%20Gostaria%20de%20discutir%20uma%20oportunidade%20conosco?"
+              target="_blank"
+            >
+              <div>
+                <Whatsapp /> <span>Whatsapp</span>
+              </div>
+              <span>+55 (53) 99950-6262</span>
+            </a>
           </li>
           <li>
-            <div>
-              <Email /> <span>Email</span>
-            </div>
-            <span>jaquesboeno@proton.me</span>
+            <a>
+              <div>
+                <Email /> <span>Email</span>
+              </div>
+              <span>jaquesboeno@proton.me</span>
+            </a>
           </li>
           <li>
             <a href="https://linkedin.com/in/jaquesboeno" target="_blank">
               <div>
                 <LinkedIn /> <span>LinkedIn</span>
               </div>
-              <span>https://linkedin.com/in/jaquesboeno</span>
+              <span>linkedin.com/in/jaquesboeno</span>
             </a>
           </li>
           <li>
@@ -35,7 +42,7 @@ const Contact: React.FC = () => {
               <div>
                 <GitHub /> <span>GitHub</span>
               </div>
-              <span>https://github.com/JaquesBoeno</span>
+              <span>github.com/JaquesBoeno</span>
             </a>
           </li>
           <li>
@@ -43,7 +50,7 @@ const Contact: React.FC = () => {
               <div>
                 <PdfFile /> <span>Currículo</span>
               </div>
-              <span>https://jaquesboeno.dev/curriculo.pdf </span>
+              <span>jaquesboeno.dev/curriculo.pdf </span>
             </a>
           </li>
         </ul>
