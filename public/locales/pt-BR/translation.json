@@ -11,5 +11,16 @@
     "title": "Sobre",
     "text": "Jaques Boeno é um desenvolvedor web altamente competente, com especialização em React, HTML, CSS e JavaScript. Sua habilidade em criar interfaces de usuário envolventes e funcionais faz dele um ativo valioso em projetos de desenvolvimento web."
   },
-  "techs": { "title": "Tecnologias" }
+  "techs": { "title": "Tecnologias" },
+  "skills": {
+    "title": "Habilidades",
+    "skills": {
+      "lang": "Inglês - intermediário",
+      "self-taught": "Autodidata",
+      "Communicativeness": "Comunicatividade",
+      "teamwork": "Trabalho em grupo",
+      "adaptability": "Adaptabilidade",
+      "quickLearning": "Aprendizado rápido"
+    }
+  }
 }
