@@ -3,12 +3,15 @@ import React from 'react'
 import './styles.scss'
 
 import { Email, GitHub, LinkedIn, PdfFile, Whatsapp } from '../../iconsController'
+import { useTranslation } from 'react-i18next'
 
 const Contact: React.FC = () => {
+  const { t } = useTranslation()
+
   return (
     <section id="Contact">
       <div className="container">
-        <h2>Contato</h2>
+        <h2>{t('contact.title')}</h2>
         <ul>
           <li>
             <a
@@ -48,7 +51,7 @@ const Contact: React.FC = () => {
           <li>
             <a href="https://jaquesboeno.dev/curriculo.pdf " target="_blank">
               <div>
-                <PdfFile /> <span>Currículo</span>
+                <PdfFile /> <span>{t('resume')}</span>
               </div>
               <span>jaquesboeno.dev/curriculo.pdf </span>
             </a>
