@@ -11,10 +11,15 @@
         width: 20rem;
         border-radius: 100%;
       }
-
-      p {
+      div {
         display: flex;
         align-items: center;
+        p {
+          span {
+            color: var(--primary);
+            font-weight: 600;
+          }
+        }
       }
     }
   }
