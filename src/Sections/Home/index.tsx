@@ -19,6 +19,10 @@ const Home: React.FC = () => {
               Jaques Boeno
             </h1>
           </div>
+          <div className="buttons">
+            <a href="#Project">Ver Projetos</a>
+            <a href="#Project">Sobre mim</a>
+          </div>
           <div className="social">
             <a href="" target="_blank">
               <Whatsapp />

@@ -1,12 +1,36 @@
 #Home {
   .container {
     display: grid;
-    grid-template-columns: auto 3fr;
+    grid-template-columns: auto 1fr;
     gap: 4rem;
     .leftBox {
       display: flex;
       flex-direction: column;
-      justify-content: space-evenly;
+      justify-content: center;
+      gap: 2.5rem;
+      .buttons {
+        display: flex;
+        justify-content: center;
+        gap: 1rem;
+        $color: var(--primary);
+
+        a {
+          background-color: $color;
+          padding: 0.5rem 1rem;
+          border-radius: 50rem;
+          color: var(--white);
+          height: fit-content;
+          border: 0.15rem solid $color;
+          font-weight: 600;
+
+          &:nth-child(2) {
+            box-sizing: content-box;
+            background-color: transparent;
+            border: 0.15rem solid $color;
+            color: $color;
+          }
+        }
+      }
       .social {
         margin: 0 auto;
         font-size: 2rem;
