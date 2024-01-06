@@ -97,6 +97,10 @@ a {
   color: inherit;
   text-decoration: none;
   cursor: pointer;
+  transition: color var(--transition-time);
+  &:hover {
+    color: var(--primary);
+  }
 }
 
 .container {

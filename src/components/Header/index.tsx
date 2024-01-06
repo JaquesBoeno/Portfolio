@@ -36,7 +36,7 @@ const Header: React.FC = () => {
               <Select />
             </li>
             <li>
-              <a href="" target="_blank">
+              <a href={'https://wa.me/5553999506262?text=' + t('whatsappText')} target="_blank">
                 <Whatsapp />
               </a>
             </li>

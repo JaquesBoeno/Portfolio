@@ -14,10 +14,7 @@ const Contact: React.FC = () => {
         <h2>{t('contact.title')}</h2>
         <ul>
           <li>
-            <a
-              href="https://wa.me/5553999506262?text=Ol%C3%A1%20Jaques,%20estamos%20impressionados%20com%20suas%20habilidades%20de%20desenvolvimento!%20Gostaria%20de%20discutir%20uma%20oportunidade%20conosco?"
-              target="_blank"
-            >
+            <a href={'https://wa.me/5553999506262?text=' + t('whatsappText')} target="_blank">
               <div>
                 <Whatsapp /> <span>Whatsapp</span>
               </div>
