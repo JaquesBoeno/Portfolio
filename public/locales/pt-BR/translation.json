@@ -25,5 +25,8 @@
   },
   "contact": { "title": "Contato" },
   "whatsappText": "Ol%C3%A1%20Jaques,%20estamos%20impressionados%20com%20suas%20habilidades%20de%20desenvolvimento!%20Gostaria%20de%20discutir%20uma%20oportunidade%20conosco?",
-  "resume": "Currículo"
+  "resume": "Currículo",
+  "projects": {
+    "title": "Projetos"
+  }
 }
