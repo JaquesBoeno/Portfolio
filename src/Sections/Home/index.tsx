@@ -24,7 +24,7 @@ const Home: React.FC = () => {
           </div>
           <div className="buttons">
             <a href="#Project">Ver Projetos</a>
-            <a href="#Project">Sobre mim</a>
+            <a href="#About">Sobre mim</a>
           </div>
           <div className="social">
             <a href={'https://wa.me/5553999506262?text=' + t('whatsappText')} target="_blank">
